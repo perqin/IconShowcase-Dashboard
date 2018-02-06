@@ -1,30 +1,35 @@
-<h1 align="center">IconShowcase</h1>
+<h1>IconShowcase</h1>
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/jahirfiquitiva/IconShowcase/master/art/icon.png" width="144">
+<h3>Deprecated/No Longer Maintained</h3>
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This project is no longer actively maintained. It does its job, but there are no plans to extend, change, update or improve it.
+<h4>Please start using <a href="https://github.com/jahirfiquitiva/Blueprint">my new dashboard: Blueprint</a></h4>
+
+--------
+
+<h4>Full-of-features, easy-to-customize, free and open source, Material Design dashboard for icon packs.</h4>
+
+<p>
+	<a target="_blank" href="https://jitpack.io/#jahirfiquitiva/IconShowcase/"><img src="https://img.shields.io/badge/JitPack-1.9.7.4-00C853.svg"></a>
+	<a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="https://img.shields.io/badge/License-CC%20BY%20SA-01579B.svg"></a>
+	<a href="https://www.codacy.com/app/jahirfiquitiva/IconShowcase?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jahirfiquitiva/IconShowcase&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/54fe3dd0aad0449e81063e303a5d161e"/></a>
+	<a target="_blank" href="https://travis-ci.org/jahirfiquitiva/IconShowcase/builds" title="Travis Builds"><img src="https://travis-ci.org/jahirfiquitiva/IconShowcase.svg?branch=master" /></a>
+	<img src="https://img.shields.io/badge/API-16%2B-7ac143.svg"/>
+	<a target="_blank" href="https://github.com/jahirfiquitiva/IconShowcase-Dashboard" title="Sample App"><img src="https://img.shields.io/badge/SAMPLE-APP-34bf49.svg" /></a>
 </p>
 
-<h4 align="center">Full-of-features, easy-to-customize, free and open source, Material Design dashboard for icon packs.</h4>
-
-<p align="center">
-	<a target="_blank" href="https://github.com/jahirfiquitiva/IconShowcase/releases/tag/1.9.7.4"><img src="https://img.shields.io/badge/version-1.9.7.4-00C853.svg"></a>
-	<a href="https://www.codacy.com/app/jahirfiquitiva/IconShowcase-Dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jahirfiquitiva/IconShowcase-Dashboard&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/86c5f4fb66bf4c75a567f9e61d7206b0"/></a>
-	<a target="_blank" href="https://travis-ci.org/jahirfiquitiva/IconShowcase-Dashboard/builds" title="Travis Builds"><img src="https://travis-ci.org/jahirfiquitiva/IconShowcase-Dashboard.svg?branch=master" /></a>
-	<a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="https://img.shields.io/badge/license-CC%20BY%20SA-01579B.svg"></a>
-	<img src="https://img.shields.io/badge/API-16%2B-7ac143.svg">
+<p>
+<h4><b>Support my work and get rewards! ;)</b></h4>
 </p>
-
-<br>
-<p align="center">
-<h4 align="center"><b>Support my work and get rewards! ;)</b></h4>
-</p>
-<p align="center">
+<p>
 	<a align="center" href="https://www.patreon.com/bePatron?u=5261073" data-patreon-widget-type="become-patron-button"><img align="center" height="40" width="204" src="https://s3-us-west-1.amazonaws.com/widget-images/become-patron-widget-medium%402x.png" alt="Support on Patreon"></a>
 	<!-- <script async src="https://cdn6.patreon.com/becomePatronButton.bundle.js"></script> -->
 </p>
 <br>
 
-<p align="center">
+<p>
 	<a target="_blank" href='https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.iconshowcase.demo'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='240'/></a>
 </p>
 
