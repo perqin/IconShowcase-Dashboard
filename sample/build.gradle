@@ -21,8 +21,8 @@ apply plugin: 'com.android.application'
 
 ext {
     TARGET_SDK = 26
-    BUILD_TOOLS = "26.0.1"
-    ANDROID_SUPPORT_LIBS = "26.0.1"
+    BUILD_TOOLS = "27.0.3"
+    ANDROID_SUPPORT_LIBS = "27.0.2"
     APP_TAG = "IS-IconPack"
 }
 
@@ -31,9 +31,8 @@ android {
     buildToolsVersion BUILD_TOOLS
 
     applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            output.outputFile = new File(output.outputFile.parent,
-                    "${APP_TAG}-v${variant.versionName}.apk")
+        variant.outputs.all {
+            outputFileName = "${APP_TAG}-v${variant.versionName}.apk"
         }
     }
 
