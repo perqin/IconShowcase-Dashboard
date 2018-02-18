@@ -17,4 +17,4 @@
  * 	https://github.com/jahirfiquitiva/IconShowcase#special-thanks
  */
 
-include ':sample'
+include ':sample', ':library'

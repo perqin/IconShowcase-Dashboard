@@ -85,7 +85,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     // Main library
-    compile 'me.jahirfiquitiva:IconShowcase:1.9.8.0'
+    compile project(':library')
 	
     // Firebase Notifications
     // TODO: Remove comment marks if you want to implement Firebase Notifications
