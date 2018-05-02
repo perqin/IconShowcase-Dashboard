@@ -215,6 +215,10 @@
     <string name="more_apps">More apps</string>
     <string name="more_apps_long">Check the other apps I have published in Google Play Store.</string>
 
+    <!-- Add custom links text here-->
+    <string name="custom_link_store_long">Check the other apps I have published in Google Play Store.</string>
+    <string name="custom_link_blog_long">Check articles I have published on my blog.</string>
+
     <string name="implemented_libraries">Implemented libraries</string>
     <string name="contributors">Development Contributors</string>
     <string name="sherry_title">Thanks to Sherry Sabatine</string>

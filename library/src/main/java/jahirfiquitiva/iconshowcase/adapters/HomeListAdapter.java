@@ -150,12 +150,18 @@ public class HomeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             setupAppInfo();
         } else if (holder instanceof MoreAppsCard) {
             MoreAppsCard mhldr = (MoreAppsCard) holder;
-            mhldr.icon.setImageDrawable(IconUtils.getTintedDrawable(context, "ic_play_store"));
-            mhldr.lly.setOnClickListener(new DebouncedClickListener() {
+            mhldr.storeIcon.setImageDrawable(IconUtils.getTintedDrawable(context, "ic_play_store"));
+            mhldr.storeLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onDebouncedClick(View v) {
-                    Utils.openLink(context,
-                            context.getResources().getString(R.string.iconpack_author_playstore));
+                public void onClick(View v) {
+                    Utils.openLink(context, "https://coolapk.com");
+                }
+            });
+            mhldr.blogIcon.setImageDrawable(IconUtils.getTintedDrawable(context, "ic_translate"));
+            mhldr.blogLayout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Utils.openLink(context, "https://blog.perqin.com");
                 }
             });
         } else if (holder instanceof AppCard) {
@@ -305,19 +311,25 @@ public class HomeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     public class MoreAppsCard extends RecyclerView.ViewHolder {
         private final LinearLayout lly;
-        private final LinearLayout subLly;
         private final TextView title;
-        private final TextView desc;
-        private final ImageView icon;
+        private final LinearLayout storeLayout;
+        private final ImageView storeIcon;
+        private final TextView storeDescription;
+        private final LinearLayout blogLayout;
+        private final ImageView blogIcon;
+        private final TextView blogDescription;
 
         public MoreAppsCard(View itemView) {
             super(itemView);
             view = itemView;
             lly = (LinearLayout) itemView.findViewById(R.id.more_apps);
             title = (TextView) itemView.findViewById(R.id.more_apps_text);
-            desc = (TextView) itemView.findViewById(R.id.more_apps_description);
-            icon = (ImageView) itemView.findViewById(R.id.more_apps_icon);
-            subLly = (LinearLayout) itemView.findViewById(R.id.more_apps_sub_layout);
+            storeLayout = (LinearLayout) itemView.findViewById(R.id.custom_link_store);
+            storeIcon = (ImageView) itemView.findViewById(R.id.custom_link_store_icon);
+            storeDescription = (TextView) itemView.findViewById(R.id.custom_link_store_description);
+            blogLayout = (LinearLayout) itemView.findViewById(R.id.custom_link_blog);
+            blogIcon = (ImageView) itemView.findViewById(R.id.custom_link_blog_icon);
+            blogDescription = (TextView) itemView.findViewById(R.id.custom_link_blog_description);
         }
     }
 

@@ -22,11 +22,9 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/more_apps"
-        style="@style/HomeCardContent"
+        style="@style/HomeCardContentCustomLinks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:clickable="true"
         android:orientation="vertical"
         tools:ignore="Overdraw">
 
@@ -36,33 +34,35 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start|center_vertical"
             android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
             android:paddingTop="16dp"
             android:text="@string/more_apps"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
 
     <LinearLayout
-            android:id="@+id/more_apps_sub_layout"
+            android:id="@+id/custom_link_store"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:clickable="false"
+            android:clickable="true"
+            android:focusable="true"
             android:gravity="center_vertical"
             android:minHeight="@dimen/md_listitem_height"
             android:orientation="horizontal"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:background="?attr/selectableItemBackground"
             tools:ignore="UseCompoundDrawables">
 
         <ImageView
-                android:id="@+id/more_apps_icon"
+                android:id="@+id/custom_link_store_icon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 tools:ignore="ContentDescription"/>
 
         <TextView
-                android:id="@+id/more_apps_description"
+                android:id="@+id/custom_link_store_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -71,7 +71,43 @@
                 android:gravity="center_vertical"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/more_apps_long"
+                android:text="@string/custom_link_store_long"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/custom_link_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/md_listitem_height"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:background="?attr/selectableItemBackground"
+            tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+                android:id="@+id/custom_link_blog_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                tools:ignore="ContentDescription"/>
+
+        <TextView
+                android:id="@+id/custom_link_blog_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/custom_link_blog_long"
                 android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
 
     </LinearLayout>
